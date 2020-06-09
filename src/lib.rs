@@ -11,6 +11,7 @@
 #![cfg_attr(test, deny(warnings))]
 #![deny(missing_docs)]
 #![allow(deprecated)]
+#![feature(llvm_asm)]
 
 #[macro_use]
 extern crate log;
